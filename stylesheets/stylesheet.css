@@ -16,7 +16,6 @@ svg {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-
   scroll-snap-type: y mandatory;
 }
 
@@ -28,7 +27,7 @@ body {
   background-color: white;
 
   padding: 0 20px;
-  height: 20%;
+  height: 10%;
 
   display: flex;
   justify-content: space-between;
@@ -83,6 +82,7 @@ body {
   will-change: auto;
 
   scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .title {
@@ -116,8 +116,7 @@ color: black;
   padding-top: 20vh;
 
   overflow-y: hidden;
-
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   scroll-snap-stop: always;
 }
 
