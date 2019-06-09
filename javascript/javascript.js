@@ -61,5 +61,9 @@ $(window).scroll(() => {
   }
 })
 
+$(window).ready(() => {
+  $(window).trigger('scroll')
+})
+
 
 
